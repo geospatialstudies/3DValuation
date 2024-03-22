@@ -10,12 +10,12 @@
     "definitions":
     {
 
-        "+VMValuation":
+        "+VMMassAppraisal":
         {
             "type": "object",
             "properties":
             {
-                "dateOfValuation":
+                "dateOfRevaluation":
                 {
                     "type": "string"
                 },
@@ -26,10 +26,153 @@
                 "assessedValue":
                 {
                     "type": "number"
+                }
+            }
+        },
+
+        "Cost-Approach":
+        {
+            "type": "object",
+            "properties":
+            {
+                "dateOfCostPrice":
+                {
+                    "type": "number"
                 },
+                "sourceOfCostPrice":
+                {
+                    "type": "number"
+                },
+                "totalCost":
+                {
+                    "type": "number"
+                },
+                "estimatedValue":
+                {
+                    "type": "number"
+                },
+                "effectiveAge":
+                {
+                    "type": "number"
+                }
+            }
+        },
+
+        "Sales-Comparison-Approach":
+        {
+            "type": "object",
+            "properties":
+            {
+                "comparableValuationUnitID":
+                {
+                    "type": "number"
+                },
+                "estimatedValue":
+                {
+                    "type": "number"
+                }
+            }
+        },
+
+        "Income-Approach":
+        {
+            "type": "object",
+            "properties":
+            {
+                "estimatedValue":
+                {
+                    "type": "number"
+                },
+                "netIncome":
+                {
+                    "type": "number"
+                },
+                "potentialGrossIncome":
+                {
+                    "type": "number"
+                },
+                "effectiveGrossIncome":
+                {
+                    "type": "number"
+                },
+                "capitalizationRate":
+                {
+                    "type": "number"
+                }
+            }
+        },
+
+        "+VMValuationApproach":
+        {
+            "type": "object",
+            "properties":
+            {
+                "incomeApproach":
+                {
+                    "type": "array",
+                    "items":
+                    {
+                        "$ref": "#/definitions/Income-Approach"
+                    }
+                },
+                "salesComparisonApproach":
+                {
+                    "type": "array",
+                    "items":
+                    {
+                        "$ref": "#/definitions/Sales-Comparison-Approach"
+                    }
+                },
+                "costApproach":
+                {
+                    "type": "array",
+                    "items":
+                    {
+                        "$ref": "#/definitions/Cost-Approach"
+                    }
+                }
+            }
+        },
+
+        "+VMValuation":
+        {
+            "type": "object",
+            "properties":
+            {
+                "dateOfValuation":
+                {
+                    "type": "string"
+                },
+                "approach":
+                {
+                    "type": "array",
+                    "items":
+                    {
+                        "$ref": "#/definitions/+VMValuationApproach"
+                    }
+                },
+                "assessedValue":
+                {
+                    "type": "number"
+                },
+
+                "valueType":
+                {
+                    "enum": [
+                        "marketValue",
+                        "assessedValue",
+                        "taxValue"
+                    ]
+                },
+
+                "vID":
+                {
+                    "type": "string"
+                },
+
                 "required": [
                     "dateOfValuation",
-                    "model",
+                    "approach",
                     "assessedValue"
                 ]
             },
@@ -239,6 +382,10 @@
                                 "locationScore":
                                 {
                                     "type": "number"
+                                },
+                                "energyPerformance":
+                                {
+                                    "type": "string"
                                 }
 
                             }
@@ -274,10 +421,6 @@
                             "properties":
                             {
                                 "dateOfSale":
-                                {
-                                    "type": "integer"
-                                },
-                                "marketValue":
                                 {
                                     "type": "integer"
                                 },
@@ -574,9 +717,167 @@
             ]
         },
 
-    },
+        "+VMValuationUnit":
+        {
+            "allOf": [
+                {
+                    "$ref": "cityobjects.schema.json#/_AbstractCityObject"
+                },
+                {
+                    "properties":
+                    {
+                        "type":
+                        {
+                            "enum": [
+                                "+VMValuationUnit"
+                            ]
+                        },
+                        "attributes":
+                        {
+                            "type": "object",
+                            "properties":
+                            {
+                                "type":
+                                {
+                                    "enum": [
+                                        "parcel",
+                                        "building",
+                                        "condominiumUnit"
+                                    ]
+                                },
 
-    "extraRootProperties": {},
+                                "valuation":
+                                {
+                                    "type": "array",
+                                    "items":
+                                    {
+                                        "$ref": "#/definitions/+VMValuation"
+                                    }
+                                },
+                            },
+                            "vuID":
+                            {
+                                "type": "integer"
+                            }
 
-    "extraSemanticSurfaces": {}
-}
+                        }
+                    },
+                    "geometry":
+                    {
+                        "type": "array",
+                        "items":
+                        {
+                            "oneOf": [
+                                {
+                                    "$ref": "geomprimitives.schema.json#/MultiSurface"
+                                },
+                                {
+                                    "$ref": "geomprimitives.schema.json#/CompositeSurface"
+                                },
+                                {
+                                    "$ref": "geomprimitives.schema.json#/Solid"
+                                },
+                                {
+                                    "$ref": "geomprimitives.schema.json#/CompositeSolid"
+                                },
+                                {
+                                    "$ref": "geomprimitives.schema.json#/MultiSolid"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "required": [
+
+                    "type",
+                    "geometry"
+                ]
+            }
+            ]
+        },
+
+        "+VMValuationUnitGroup":
+        {
+            "allOf": [
+                {
+                    "$ref": "cityobjects.schema.json#/_AbstractCityObject"
+                },
+                {
+                    "properties":
+                    {
+                        "type":
+                        {
+                            "enum": [
+                                "+VMValuationUnitGroup"
+                            ]
+                        },
+                        "attributes":
+                        {
+                            "type": "object",
+                            "properties":
+                            {
+                                "grouptype":
+                                {
+                                    "enum": [
+                                        "street",
+                                        "municipality"
+
+                                    ]
+                                },
+
+                                "massAppraisal":
+                                {
+                                    "type": "array",
+                                    "items":
+                                    {
+                                        "$ref": "#/definitions/+VMMassAppraisal"
+                                    }
+                                },
+                            },
+                            "vugID":
+                            {
+                                "type": "integer"
+                            }
+
+                        }
+                    },
+                    "geometry":
+                    {
+                        "type": "array",
+                        "items":
+                        {
+                            "oneOf": [
+                                {
+                                    "$ref": "geomprimitives.schema.json#/MultiSurface"
+                                },
+                                {
+                                    "$ref": "geomprimitives.schema.json#/CompositeSurface"
+                                },
+                                {
+                                    "$ref": "geomprimitives.schema.json#/Solid"
+                                },
+                                {
+                                    "$ref": "geomprimitives.schema.json#/CompositeSolid"
+                                },
+                                {
+                                    "$ref": "geomprimitives.schema.json#/MultiSolid"
+                                }
+                            ]
+                        }
+                    }
+                },
+                "required": [
+
+                    "type",
+                    "geometry"
+                ]
+            }
+            ]
+        },
+
+        },
+
+        "extraRootProperties": {},
+
+        "extraSemanticSurfaces": {}
+        }
