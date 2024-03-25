@@ -173,7 +173,8 @@
                 "required": [
                     "dateOfValuation",
                     "approach",
-                    "assessedValue"
+                    "assessedValue",
+					"vID"
                 ]
             },
 
