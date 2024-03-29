@@ -876,10 +876,11 @@
                     ]
                 }
             ]
-        },
+	}
+	},
 
         "extraRootProperties": {},
 
         "extraSemanticSurfaces": {},
 
-    }
+}
