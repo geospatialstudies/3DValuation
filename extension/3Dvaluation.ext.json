@@ -7,171 +7,7 @@
     "version": "1.0",
     "extraAttributes": {},
     "versionCityJSON": "2.0",
-    "definitions":
-    {
-
-        "VMMassAppraisal":
-        {
-            "type": "object",
-            "properties":
-            {
-                "dateOfRevaluation":
-                {
-                    "type": "string"
-                },
-                "model":
-                {
-                    "type": "string"
-                },
-                "assessedValue":
-                {
-                    "type": "number"
-                }
-            }
-        },
-
-        "Cost-Approach":
-        {
-            "type": "object",
-            "properties":
-            {
-                "dateOfCostPrice":
-                {
-                    "type": "number"
-                },
-                "sourceOfCostPrice":
-                {
-                    "type": "number"
-                },
-                "totalCost":
-                {
-                    "type": "number"
-                },
-                "estimatedValue":
-                {
-                    "type": "number"
-                },
-                "effectiveAge":
-                {
-                    "type": "number"
-                }
-            }
-        },
-
-        "Sales-Comparison-Approach":
-        {
-            "type": "object",
-            "properties":
-            {
-                "comparableValuationUnitID":
-                {
-                    "type": "number"
-                },
-                "estimatedValue":
-                {
-                    "type": "number"
-                }
-            }
-        },
-
-        "Income-Approach":
-        {
-            "type": "object",
-            "properties":
-            {
-                "estimatedValue":
-                {
-                    "type": "number"
-                },
-                "netIncome":
-                {
-                    "type": "number"
-                },
-                "potentialGrossIncome":
-                {
-                    "type": "number"
-                },
-                "effectiveGrossIncome":
-                {
-                    "type": "number"
-                },
-                "capitalizationRate":
-                {
-                    "type": "number"
-                }
-            }
-        },
-
-        "VMValuationApproach":
-        {
-            "type": "object",
-            "properties":
-            {
-                "incomeApproach":
-                {
-                    "type": "array",
-                    "items":
-                    {
-                        "$ref": "#/definitions/Income-Approach"
-                    }
-                },
-                "salesComparisonApproach":
-                {
-                    "type": "array",
-                    "items":
-                    {
-                        "$ref": "#/definitions/Sales-Comparison-Approach"
-                    }
-                },
-                "costApproach":
-                {
-                    "type": "array",
-                    "items":
-                    {
-                        "$ref": "#/definitions/Cost-Approach"
-                    }
-                }
-            }
-        },
-
-        "VMValuation":
-        {
-            "type": "object",
-            "properties":
-            {
-                "dateOfValuation":
-                {
-                    "type": "number"
-                },
-
-                "assessedValue":
-                {
-                    "type": "number"
-                },
-
-                "valueType":
-                {
-                    "enum": [
-                        "marketValue",
-                        "assessedValue",
-                        "taxValue"
-                    ]
-                },
-
-                "vID":
-                {
-                    "type": "number"
-                },
-
-                "required": [
-                    "dateOfValuation",
-                    "assessedValue",
-                    "vID"
-                ]
-            }
-
-        }
-    },
+   
 
     "extraCityObjects":
     {
@@ -739,22 +575,8 @@
                                     ]
                                 },
 
-                                "valuation":
-                                {
-                                    "type": "array",
-                                    "items":
-                                    {
-                                        "$ref": "#/definitions/+VMValuation"
-                                    }
-                                },
-                                "approach":
-                                {
-                                    "type": "array",
-                                    "items":
-                                    {
-                                        "$ref": "#/definitions/VMValuationApproach"
-                                    }
-                                },
+                              
+                                
                                 "vuID":
                                 {
                                     "type": "integer"
@@ -827,14 +649,7 @@
                                     ]
                                 },
 
-                                "massAppraisal":
-                                {
-                                    "type": "array",
-                                    "items":
-                                    {
-                                        "$ref": "#/definitions/VMMassAppraisal"
-                                    }
-                                },
+
 
                                 "vugID":
                                 {
