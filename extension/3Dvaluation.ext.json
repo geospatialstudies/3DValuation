@@ -578,7 +578,7 @@
                             "type": "object",
                             "properties":
                             {
-                                "type":
+                                "sharedFacilityType":
                                 {
                                     "enum": [
                                         "elevator",
