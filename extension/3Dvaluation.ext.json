@@ -143,14 +143,7 @@
                 {
                     "type": "string"
                 },
-                "approach":
-                {
-                    "type": "array",
-                    "items":
-                    {
-                        "$ref": "#/definitions/+VMValuationApproach"
-                    }
-                },
+
                 "assessedValue":
                 {
                     "type": "number"
@@ -174,7 +167,7 @@
                     "dateOfValuation",
                     "approach",
                     "assessedValue",
-					"vID"
+                    "vID"
                 ]
             },
 
@@ -753,6 +746,14 @@
                                     "items":
                                     {
                                         "$ref": "#/definitions/+VMValuation"
+                                    }
+                                },
+                                "approach":
+                                {
+                                    "type": "array",
+                                    "items":
+                                    {
+                                        "$ref": "#/definitions/+VMValuationApproach"
                                     }
                                 },
                             },
