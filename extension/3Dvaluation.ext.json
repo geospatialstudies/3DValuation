@@ -10,7 +10,7 @@
     "definitions":
     {
 
-        "+VMMassAppraisal":
+        "VMMassAppraisal":
         {
             "type": "object",
             "properties":
@@ -102,7 +102,7 @@
             }
         },
 
-        "+VMValuationApproach":
+        "VMValuationApproach":
         {
             "type": "object",
             "properties":
@@ -134,7 +134,7 @@
             }
         },
 
-        "+VMValuation":
+        "VMValuation":
         {
             "type": "object",
             "properties":
@@ -752,7 +752,7 @@
                                     "type": "array",
                                     "items":
                                     {
-                                        "$ref": "#/definitions/+VMValuationApproach"
+                                        "$ref": "#/definitions/VMValuationApproach"
                                     }
                                 },
                                 "vuID":
@@ -832,7 +832,7 @@
                                     "type": "array",
                                     "items":
                                     {
-                                        "$ref": "#/definitions/+VMMassAppraisal"
+                                        "$ref": "#/definitions/VMMassAppraisal"
                                     }
                                 },
 
