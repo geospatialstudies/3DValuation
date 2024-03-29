@@ -165,7 +165,6 @@
 
                 "required": [
                     "dateOfValuation",
-                    "approach",
                     "assessedValue",
                     "vID"
                 ]
