@@ -650,7 +650,7 @@
                             "type": "object",
                             "properties":
                             {
-                                "type":
+                                "annexType":
                                 {
                                     "enum": [
                                         "waterTank",
