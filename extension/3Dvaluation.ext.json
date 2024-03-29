@@ -7,7 +7,6 @@
     "version": "1.0",
     "extraAttributes": {},
     "versionCityJSON": "2.0",
-   
 
     "extraCityObjects":
     {
@@ -573,10 +572,26 @@
                                         "building",
                                         "condominiumUnit"
                                     ]
+                                }, 
+                                "+valuation":
+                                {
+                                    "type": "object",
+                                    "properties":
+                                    {
+                                        "dateOfValuation":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "valueType":
+                                        {
+                                            "type": "string",
+                                            "enum": ["marketValue", "assessedValue", "taxValue"]
+                                        }
+                                    },
+                                    "required": ["dateOfValuation", "valueType"],
+                                    "additionalProperties": false
                                 },
 
-                              
-                                
                                 "vuID":
                                 {
                                     "type": "integer"
@@ -648,8 +663,6 @@
 
                                     ]
                                 },
-
-
 
                                 "vugID":
                                 {
