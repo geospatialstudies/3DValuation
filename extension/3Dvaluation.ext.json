@@ -730,7 +730,7 @@
                             "type": "object",
                             "properties":
                             {
-                                "type":
+                                "vuType":
                                 {
                                     "enum": [
                                         "parcel",
