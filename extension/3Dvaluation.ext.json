@@ -141,7 +141,7 @@
             {
                 "dateOfValuation":
                 {
-                    "type": "string"
+                    "type": "number"
                 },
 
                 "assessedValue":
