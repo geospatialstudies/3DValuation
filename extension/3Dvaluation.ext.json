@@ -756,13 +756,14 @@
                                         "$ref": "#/definitions/+VMValuationApproach"
                                     }
                                 },
-                                 "vuID":
-                            {
-                                "type": "integer"
-                            }
+                                "vuID":
+                                {
+                                    "type": "integer"
+                                }
 
+                            }
                         }
-                    }},
+                    },
                     "geometry":
                     {
                         "type": "array",
@@ -787,15 +788,16 @@
                             ]
                         }
                     },
-                
-                "required": [
 
-                    "type",
-                    "geometry"
-                ]
-            
-            
-		}]},
+                    "required": [
+
+                        "type",
+                        "geometry"
+                    ]
+
+                }
+            ]
+        },
 
         "+VMValuationUnitGroup":
         {
@@ -834,50 +836,50 @@
                                         "$ref": "#/definitions/+VMMassAppraisal"
                                     }
                                 },
-                            
-                            "vugID":
-                            {
-                                "type": "integer"
-                            }
 
+                                "vugID":
+                                {
+                                    "type": "integer"
+                                }
+
+                            }
+                        },
+                        "geometry":
+                        {
+                            "type": "array",
+                            "items":
+                            {
+                                "oneOf": [
+                                    {
+                                        "$ref": "geomprimitives.schema.json#/MultiSurface"
+                                    },
+                                    {
+                                        "$ref": "geomprimitives.schema.json#/CompositeSurface"
+                                    },
+                                    {
+                                        "$ref": "geomprimitives.schema.json#/Solid"
+                                    },
+                                    {
+                                        "$ref": "geomprimitives.schema.json#/CompositeSolid"
+                                    },
+                                    {
+                                        "$ref": "geomprimitives.schema.json#/MultiSolid"
+                                    }
+                                ]
+                            }
                         }
                     },
-                    "geometry":
-                    {
-                        "type": "array",
-                        "items":
-                        {
-                            "oneOf": [
-                                {
-                                    "$ref": "geomprimitives.schema.json#/MultiSurface"
-                                },
-                                {
-                                    "$ref": "geomprimitives.schema.json#/CompositeSurface"
-                                },
-                                {
-                                    "$ref": "geomprimitives.schema.json#/Solid"
-                                },
-                                {
-                                    "$ref": "geomprimitives.schema.json#/CompositeSolid"
-                                },
-                                {
-                                    "$ref": "geomprimitives.schema.json#/MultiSolid"
-                                }
-                            ]
-                        }
-                    }
-                },
-                "required": [
+                    "required": [
 
-                    "type",
-                    "geometry"
-                ]
-	}
-    ]       
- },
-		
-"extraRootProperties": {},
+                        "type",
+                        "geometry"
+                    ]
+                }
+            ]
+        },
 
-"extraSemanticSurfaces": {}
+        "extraRootProperties": {},
 
-}
+        "extraSemanticSurfaces": {}
+
+    }
