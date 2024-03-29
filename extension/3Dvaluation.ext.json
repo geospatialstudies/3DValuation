@@ -794,9 +794,9 @@
                     "type",
                     "geometry"
                 ]
-            }
+            
             ]
-        },
+},
 
         "+VMValuationUnitGroup":
         {
@@ -873,13 +873,12 @@
                     "type",
                     "geometry"
                 ]
-            }
-            ]
-        },
+	}
+           
+ },
+		
+"extraRootProperties": {},
 
-        },
+"extraSemanticSurfaces": {}
 
-        "extraRootProperties": {},
-
-        "extraSemanticSurfaces": {}
-        }
+}
