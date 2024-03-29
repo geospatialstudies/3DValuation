@@ -756,8 +756,7 @@
                                         "$ref": "#/definitions/+VMValuationApproach"
                                     }
                                 },
-                            },
-                            "vuID":
+                                 "vuID":
                             {
                                 "type": "integer"
                             }
@@ -787,16 +786,16 @@
                                 }
                             ]
                         }
-                    }
-                },
+                    },
+                
                 "required": [
 
                     "type",
                     "geometry"
                 ]
             
-            ]
-},
+            
+		}]}},
 
         "+VMValuationUnitGroup":
         {
@@ -874,7 +873,7 @@
                     "geometry"
                 ]
 	}
-           
+    ]       
  },
 		
 "extraRootProperties": {},
