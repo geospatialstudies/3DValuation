@@ -834,7 +834,7 @@
                                         "$ref": "#/definitions/+VMMassAppraisal"
                                     }
                                 },
-                            },
+                            
                             "vugID":
                             {
                                 "type": "integer"
