@@ -1,0 +1,1466 @@
+{
+  "all_errors": [],
+  "dataset_errors": [],
+  "features": [
+    {
+      "errors": [],
+      "id": "annex1",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex10",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex11",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex12",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex13",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex14",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex15",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex16",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex2",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex3",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex4",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex5",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex6",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex7",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex8",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "annex9",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMAnnex",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "building1",
+      "primitives": [
+        {
+          "id": "0",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "1",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "2",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "3",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "4",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "5",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        }
+      ],
+      "type": "+VMBuilding",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo1",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo10",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo11",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo12",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo13",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo14",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo15",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo16",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo2",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo3",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo4",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo5",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo6",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo7",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo8",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "condo9",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMCondominiumUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit1",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit10",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit11",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit12",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit13",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit14",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit15",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit16",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit2",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit3",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit4",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit5",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit6",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit7",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit8",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "mainunit9",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMMainUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "sharedfacility1",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMSharedFacility",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "sharedfacility2",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMSharedFacility",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "sharedfacility3",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMSharedFacility",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "sharedfacility4",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMSharedFacility",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "sharedfacility5",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMSharedFacility",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "sharedfacility6",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMSharedFacility",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "sharedfacility7",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMSharedFacility",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "sharedfacility8",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMSharedFacility",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit1",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit10",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit11",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit12",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit13",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit14",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit15",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit16",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit17",
+      "primitives": [
+        {
+          "id": "0",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "1",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "2",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "3",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "4",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        },
+        {
+          "id": "5",
+          "numberfaces": 1,
+          "numbervertices": 4,
+          "type": "CompositeSurface",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit2",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit3",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit4",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit5",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit6",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit7",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit8",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    },
+    {
+      "errors": [],
+      "id": "valuationunit9",
+      "primitives": [
+        {
+          "errors": [],
+          "id": "0",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        },
+        {
+          "errors": [],
+          "id": "1",
+          "numbersolids": 1,
+          "type": "MultiSolid",
+          "validity": true
+        }
+      ],
+      "type": "+VMValuationUnit",
+      "validity": true
+    }
+  ],
+  "features_overview": [
+    {
+      "total": 16,
+      "type": "+VMAnnex",
+      "valid": 16
+    },
+    {
+      "total": 1,
+      "type": "+VMBuilding",
+      "valid": 1
+    },
+    {
+      "total": 16,
+      "type": "+VMCondominiumUnit",
+      "valid": 16
+    },
+    {
+      "total": 16,
+      "type": "+VMMainUnit",
+      "valid": 16
+    },
+    {
+      "total": 8,
+      "type": "+VMSharedFacility",
+      "valid": 8
+    },
+    {
+      "total": 17,
+      "type": "+VMValuationUnit",
+      "valid": 17
+    }
+  ],
+  "input_file": "/var/www/geovalidation/val3dity/uploads/3D_Valuation.json",
+  "input_file_type": "CityJSON",
+  "parameters": {
+    "overlap_tol": -1.0,
+    "planarity_d2p_tol": 0.01,
+    "planarity_n_tol": 20.0,
+    "snap_tol": 0.001
+  },
+  "primitives_overview": [
+    {
+      "total": 104,
+      "type": "MultiSolid",
+      "valid": 104
+    },
+    {
+      "total": 12,
+      "type": "CompositeSurface",
+      "valid": 12
+    }
+  ],
+  "time": "Mon Apr  1 11:34:00 2024 CEST",
+  "type": "val3dity_report",
+  "val3dity_version": "2.4.0",
+  "validity": true
+}
