@@ -678,7 +678,7 @@
                                         },
                                         "vID":
                                         {
-                                            "type": "string"
+                                            "type": "number"
                                         }
                                     },
                                     "required": ["dateOfValuation", "valueType", "assessedValue", "vID"],
