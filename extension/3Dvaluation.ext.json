@@ -571,8 +571,94 @@
                                         "building",
                                         "condominiumUnit"
                                     ]
-                                }, 
-                                "+valuation":
+                                },
+                                "approachType":
+                                {
+                                    "enum": [
+                                        "incomeApproach",
+                                        "salesComparisonApproach",
+                                        "costApproach"
+                                    ]
+                                },
+                                "incomeApproach":
+                                {
+                                    "type": "object",
+                                    "properties":
+                                    {
+                                        "estimatedValue":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "netIncome":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "potentialGrossIncome":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "effectiveGrossIncome":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "capitalizationRate":
+                                        {
+                                            "type": "number"
+                                        }
+                                    },
+                                    "required": ["estimatedValue", "netIncome", "potentialGrossIncome", "effectiveGrossIncome", "capitalizationRate"],
+                                    "additionalProperties": false
+                                },
+
+                                "salesComparisonApproach":
+                                {
+                                    "type": "object",
+                                    "properties":
+                                    {
+                                        "comparableValuationUnitID":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "estimatedValue":
+                                        {
+                                            "type": "number"
+                                        }
+                                    },
+
+                                    "required": ["comparableValuationUnitID", "estimatedValue"],
+                                    "additionalProperties": false
+                                },
+
+                                "costApproach":
+                                {
+                                    "type": "object",
+                                    "properties":
+                                    {
+                                        "dateOfCostPrice":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "sourceOfCostPrice":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "totalCost":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "estimatedValue":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "effectiveAge":
+                                        {
+                                            "type": "number"
+                                        }
+                                    },
+                                    "required": ["dateOfCostPrice", "sourceOfCostPrice", "totalCost", "estimatedValue", "effectiveAge"],
+                                    "additionalProperties": false
+                                },
+                                "valuation":
                                 {
                                     "type": "object",
                                     "properties":
@@ -585,9 +671,17 @@
                                         {
                                             "type": "string",
                                             "enum": ["marketValue", "assessedValue", "taxValue"]
+                                        },
+                                        "assessedValue":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "vID":
+                                        {
+                                            "type": "string"
                                         }
                                     },
-                                    "required": ["dateOfValuation", "valueType"],
+                                    "required": ["dateOfValuation", "valueType", "assessedValue", "vID"],
                                     "additionalProperties": false
                                 },
 
@@ -661,6 +755,28 @@
                                         "municipality"
 
                                     ]
+                                },
+
+                                "massAppraisal":
+                                {
+                                    "type": "object",
+                                    "properties":
+                                    {
+                                        "assessedValue":
+                                        {
+                                            "type": "number"
+                                        },
+                                        "dateOfRevaluation":
+                                        {
+                                            "type": "string"
+                                        },
+                                        "model":
+                                        {
+                                            "type": "string"
+                                        }
+                                    },
+                                    "required": ["assessedValue", "dateOfRevaluation", "model"],
+                                    "additionalProperties": false
                                 },
 
                                 "vugID":
