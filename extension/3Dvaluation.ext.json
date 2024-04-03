@@ -308,7 +308,8 @@
 
                         "type",
                         "geometry",
-                        "parents"
+                        "parents",
+						"children"
                     ]
                 }
             ]
